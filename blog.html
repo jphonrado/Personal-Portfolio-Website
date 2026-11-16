@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Jose Paulo Honrado</title>
+    <meta name="description" content="Essays and notes by Jose Paulo Honrado on what he is learning and building." />
+    <meta property="og:title" content="Blog | Jose Paulo Honrado" />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b6b3a'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3EJP%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container bar">
+        <a class="logo" href="index.html">Jose Paulo Honrado</a>
+        <nav aria-label="Main">
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="blog.html" aria-current="page">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="container page-head">
+        <h1>Blog</h1>
+        <p>Essays and notes on what I'm learning, building, and thinking about.</p>
+      </div>
+
+      <div class="container blog-body">
+        <div id="tag-filter" class="filter" role="group" aria-label="Filter posts by tag" hidden></div>
+        <div id="post-list">
+          <noscript>
+            <p class="empty-note">Turn on JavaScript to see the list of posts.</p>
+          </noscript>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year">2026</span> Jose Paulo Honrado</p>
+        <p>
+          <a href="https://github.com/jphonrado" target="_blank" rel="noopener">GitHub</a> &middot;
+          <a href="https://www.linkedin.com/in/jose-paulo-honrado-699101368" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="posts.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

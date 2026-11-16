@@ -1,25 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" contents = "IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="styles/style.css"/>
-        <link rel="stylesheet" href="mediaqueries.css"/>
-    </head>
-    <body>
-        <nav id="desktop-nav">
-            <div class="logo">Jose Paulo Honrado</div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jose Paulo Honrado | Computer Science Student, Data and AI</title>
+    <meta
+      name="description"
+      content="Portfolio of Jose Paulo Honrado, a third-year Computer Science student at De La Salle University Manila looking for a data science, analytics, or AI internship."
+    />
+    <meta property="og:title" content="Jose Paulo Honrado | Portfolio" />
+    <meta
+      property="og:description"
+      content="Computer Science student at De La Salle University Manila. Projects in machine learning, statistics, and databases."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b6b3a'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='white'%3EJP%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container bar">
+        <a class="logo" href="index.html">Jose Paulo Honrado</a>
+        <nav aria-label="Main">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
-        <script src="script.js"></script>
-    </body>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ===================== HERO ===================== -->
+      <section class="hero" id="top">
+        <div class="container">
+          <p class="eyebrow">Computer Science &middot; De La Salle University, Manila</p>
+          <h1>Hi, I'm Jose Paulo Honrado.</h1>
+          <p class="lead">
+            I'm a third-year Computer Science student (Major in Software Technology). I'm exploring data science and AI, and I'm looking for an internship
+            in that area starting January 2027.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#projects">See my projects</a>
+            <a class="btn" href="blog.html">Read the blog</a>
+            <a class="btn" href="mailto:jphonrado17@gmail.com">Email me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== ABOUT ===================== -->
+      <section class="section" id="about">
+        <div class="container">
+          <h2>About</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I study Computer Science at De La Salle University in Manila, with a major in
+                Software Technology. My coursework so far covers
+                programming, algorithms, databases, statistics, intelligent systems, and software
+                engineering, and I'm now steering toward data and AI work.
+              </p>
+              <p>
+                My favorite project so far is Catbot, a reinforcement learning bot. I genuinely
+                enjoyed building it, because it made me curious about how a computer learns.
+              </p>
+              <p>
+                On software engineering teams I've served as an analyst and QA, which is about
+                clarifying what a system should do and checking that it does.
+              </p>
+            </div>
+
+            <dl class="facts">
+              <dt>Education</dt>
+              <dd>BS Computer Science, DLSU Manila<br />Expected October 2028</dd>
+              <dt>Honors</dt>
+              <dd>Jose Rizal Honors, AY 2023&ndash;2024</dd>
+              <dt>Looking for</dt>
+              <dd>
+                A data science, analytics, or AI internship from January 2027, with hours arranged
+                around classes
+              </dd>
+              <dt>Tools I use</dt>
+              <dd>Python (pandas, NumPy, scikit-learn), SQL, Java, Git</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== EXPERIENCE ===================== -->
+      <section class="section" id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+
+          <ol class="timeline">
+            <li>
+              <h3 class="role">Analyst and QA, Advanced Software Engineering</h3>
+              <p class="role-meta">De La Salle University &middot; 2026 to present</p>
+              <!-- Add what you did here, for example the features you tested or the requirements you wrote. -->
+              <p>Currently serving as Analyst and QA on a team software project.</p>
+            </li>
+            <li>
+              <h3 class="role">Analyst, Software Engineering</h3>
+              <p class="role-meta">De La Salle University &middot; 2026</p>
+              <p>
+                Analyst on AgilaPost, a web app for scheduling social media posts and getting them
+                approved through a shared calendar (React, TypeScript, Node.js). I also built the
+                Queue page front end.
+              </p>
+            </li>
+          </ol>
+
+          <h3 class="subhead">Student organizations (member)</h3>
+          <ul class="chip-row">
+            <li>DLSU Data Science Society</li>
+            <li>Google Developer Groups on Campus DLSU</li>
+            <li>AWS Archers Student Builder Group</li>
+            <li>La Salle Computer Society</li>
+          </ul>
+
+          <h3 class="subhead">Certificates and workshops</h3>
+          <ul class="plain-list">
+            <li>Introduction to Python, JetBrains Academy (October 2026)</li>
+            <li>
+              Innovator Masterclass 0001: The Tr(AI)ning Grounds, a one-day workshop on AI, deep
+              learning, and local AI deployment by GDGoC DLSU with the IEEE Industrial Electronics
+              &amp; Photonics Philippine Joint Chapter (November 2026)
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===================== PROJECTS ===================== -->
+      <section class="section" id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="lead" style="font-size: 1.05rem; margin-bottom: 1.75rem">
+            These are course projects. Each one lists what I personally worked on.
+          </p>
+
+          <div class="cards">
+            <article class="card">
+              <h3>Social Media Use and Focus Difficulty</h3>
+              <p class="card-meta">Statistical Modeling and Simulation &middot; Team of 5 &middot; 2026</p>
+              <p>
+                Which social media habits go with trouble focusing? Using survey responses from 371
+                young adults, we mined association rules and compared groups with ANOVA and
+                chi-square tests. Restlessness and purposeless use were more strongly linked to
+                focus difficulty than time spent alone. I cleaned the data and wrote the abstract,
+                limitations, and references.
+              </p>
+              <ul class="tags" aria-label="Technologies used">
+                <li>Python</li>
+                <li>pandas</li>
+                <li>NumPy</li>
+                <li>SciPy</li>
+                <li>Matplotlib</li>
+              </ul>
+              <p class="card-links">
+                <a href="https://github.com/klyckman/CSMODEL" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Catbot: Reinforcement Learning Agent</h3>
+              <p class="card-meta">Intelligent Systems &middot; Group project &middot; 2025</p>
+              <p>
+                A bot that learns to catch cats with different movement behaviors on an 8&times;8
+                grid. It uses tabular Q-learning, a reward function shaped around the distance to
+                the cat, and an exploration rate that decays linearly to zero over the first 1,000 of 5,000 training episodes. This is
+                the project that got me curious about how a computer learns.
+              </p>
+              <ul class="tags" aria-label="Technologies used">
+                <li>Python</li>
+                <li>NumPy</li>
+                <li>Gymnasium</li>
+                <li>Pygame</li>
+              </ul>
+              <p class="card-links">
+                <a href="https://github.com/jphonrado/MCO3-Catbot" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>PinoyBot: Filipino-English Word Identifier</h3>
+              <p class="card-meta">Intelligent Systems &middot; Group project &middot; 2025</p>
+              <p>
+                Labels each word in a Filipino-English sentence as Filipino, English, or other. A
+                Naive Bayes classifier using seven hand-built word features and 742 annotated words
+                reached about 88% test accuracy, though it is weaker on English words. I built the
+                feature and labeling pipeline and connected the model to the tagging function.
+              </p>
+              <ul class="tags" aria-label="Technologies used">
+                <li>Python</li>
+                <li>pandas</li>
+                <li>scikit-learn</li>
+              </ul>
+              <p class="card-links">
+                <a href="https://github.com/jphonrado/CSINTSY-MCO2-PinoyBot" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Vehicle Registration System</h3>
+              <p class="card-meta">Information Management &middot; Team of 4 &middot; 2025</p>
+              <p>
+                A desktop app for vehicle registration, renewals, payments, and violations, backed
+                by a nine-table MySQL database. I wrote the Java model classes and the JDBC layer
+                that connects the app to MySQL, and built registration with automatic officer
+                assignment and a violations-by-officer report with CSV export.
+              </p>
+              <ul class="tags" aria-label="Technologies used">
+                <li>Java</li>
+                <li>Swing</li>
+                <li>MySQL</li>
+                <li>JDBC</li>
+              </ul>
+              <p class="card-links">
+                <a href="https://github.com/sxmsnchz/CCINFOM-S23-08-DBAPP" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Browser Tabs: An HCI Study</h3>
+              <p class="card-meta">Human-Computer Interaction &middot; Team of 4 &middot; 2026</p>
+              <p>
+                A controlled experiment comparing horizontal and vertical browser tabs when many
+                tabs are open. We designed the study and its measures (retrieval time, accuracy,
+                and perceived workload with NASA-TLX) and planned a repeated-measures ANOVA. The
+                study is still in the planning stage.
+              </p>
+              <ul class="tags" aria-label="Topics">
+                <li>Experiment design</li>
+                <li>Statistics</li>
+                <li>User research</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== LATEST WRITING ===================== -->
+      <section class="section" id="writing">
+        <div class="container">
+          <div class="section-head">
+            <h2>Latest writing</h2>
+            <a href="blog.html">All posts &rarr;</a>
+          </div>
+          <div id="latest-posts">
+            <noscript>
+              <p class="empty-note">Turn on JavaScript to see the latest posts, or open the <a href="blog.html">blog page</a>.</p>
+            </noscript>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CONTACT ===================== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>I'm open to internship opportunities starting January 2027. Email is the best way to reach me.</p>
+          <p class="contact-email"><a href="mailto:jphonrado17@gmail.com">jphonrado17@gmail.com</a></p>
+          <div class="actions">
+            <a class="btn" href="https://www.linkedin.com/in/jose-paulo-honrado-699101368" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://github.com/jphonrado" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year">2026</span> Jose Paulo Honrado</p>
+        <p>
+          <a href="https://github.com/jphonrado" target="_blank" rel="noopener">GitHub</a> &middot;
+          <a href="https://www.linkedin.com/in/jose-paulo-honrado-699101368" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="posts.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
